@@ -1,0 +1,72 @@
+# ==============================================================================
+# Non-Code & Academic Deliverables (LaTeX, Word, PDFs, Images)
+# ==============================================================================
+*.pdf
+*.tex
+*.docx
+*.doc
+*.pptx
+*.xlsx
+*.jpeg
+*.jpg
+*.png
+*.gif
+*.svg
+*.ico
+
+# LaTeX build intermediates & auxiliary logs
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+tools/
+word/
+
+# Academic report generation helper script
+build_project_report.py
+
+# ==============================================================================
+# Machine Learning Weights, Adapters & Generated Artifacts
+# ==============================================================================
+*.pt
+*.pth
+*.bin
+*.safetensors
+adapters/
+artifacts/adapters/
+.cache/
+huggingface/
+
+# Generated benchmark runs (optional: keep repo clean for fresh runs)
+benchmark_results.json
+
+# ==============================================================================
+# Python Runtime & Packaging
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# ==============================================================================
+# OS & Editor Artifacts
+# ==============================================================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
